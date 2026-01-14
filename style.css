@@ -141,33 +141,3 @@ body {
     pointer-events: none;
     opacity: 0..5;
 }
-.code_here {
-    position: absolute;
-    right: 0;
-    top: 30px;
-    transform: translateX(140px);
-}
-
-@keyframes slidout {
-    from {
-        transform: translateX(200px);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-.showhere {
-    transform: translateX(0);
-    animation: slidout 1s ease-in-out alternate;
-}
-.code_here a {
-    color: white;
-    background-color: black;
-    padding: 5px 10px;
-    width: 250px;
-    border-radius: 5px;
-    text-align: center;
-}
-.code_sign {
-    cursor: pointer;
-}

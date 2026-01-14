@@ -6,12 +6,6 @@
 // to get the movie duration and episod "data.data[0].duration,  data.data[0].episodes"
 
 
- // to get code click here
-document.querySelector('.code_sign').addEventListener('click',function () {
-      let code = document.querySelector('.code_here')
-      code.classList.toggle('showhere')
-})
-
 async function countrys() {
     try {
         let res = await fetch("https://api.jikan.moe/v4/anime")
